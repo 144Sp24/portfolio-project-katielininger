@@ -6,9 +6,9 @@ Date: February 7, 2024
 
 /* CSS Style Reset */
 body, header, nav, div, footer, img {
-    margin: 5;
-    padding: 0;
-    border: 0;
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
 }
 
 body {
@@ -46,7 +46,7 @@ h3 {
     text-align: center;
 }
 
-#image and text {
+#image-and-text {
     color: #4e3524;
     background-color: #fffaf0;
     text-align: center;
@@ -54,7 +54,7 @@ h3 {
 
 /* Style rules for nav */
 nav {
-    width: 70%;
+    width: 50%;
     float: right;
     margin: 5em 3em 0 0;
 }
@@ -98,7 +98,7 @@ main {
 }
 
 #map {
-    float: left;
+    position: left;
 }
 
 .list {
