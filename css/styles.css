@@ -1,0 +1,145 @@
+/*
+Name: Katie Lininger
+File name: styles.css
+Date: February 7, 2024
+*/
+
+/* CSS Style Reset */
+body, header, nav, div, footer, img {
+    margin: 5;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #738678;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Style rules for header */
+header {
+    width: 25%;
+    float: left;
+    color: #4e3524;
+    background-color: #fffaf0;
+    text-align: center;
+}
+
+h1 {
+    font-family: Garamond, serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+}
+
+#name {
+    color: #4e3524;
+    background-color: #fffaf0;
+    text-align: center;
+}
+
+#image and text {
+    color: #4e3524;
+    background-color: #fffaf0;
+    text-align: center;
+}
+
+/* Style rules for nav */
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li a {
+    display: block;
+    color: #4e3524;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #fffaf0;
+    width: 55%;
+    height: auto;
+    float: right;
+    font-family: Garamond, serif;
+}
+
+/* Style rules for main */
+main {
+    clear: left;
+    background-color: #738678;
+    padding: 2%;
+    font-size: 1.15em;
+    color: #fffaf0;
+    font-family: Arial, sans-serif;
+}
+
+#welcome {
+    width: 35%;
+}
+
+#contact {
+    width: 55%;
+    padding: 5px;
+}
+
+#map {
+    float: left;
+}
+
+.list {
+    color: #fffaf0;
+    padding: 10px;
+    list-style-type: none;
+    list-style-type: circle;
+    line-height: 1.5em;
+    
+}
+
+.link {
+    color: #4e3524;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Style rules for footer */
+footer p {
+    background-color: #fffaf0;
+    color: #4e3524;
+    text-align: center;
+    font-size: 0.75em;
+    padding: 2.5em;
+    font-family: Arial, sans-serif;
+}
+
+footer a {
+    background-color: #fffaf0;
+    color: #4e3524;
+    text-align: left;
+    font-size: 0.75em;
+    padding: 2.5em;
+    font-family: Arial, sans-serif;
+    float: left;
+}
+
+.link {
+    color: #4e3524;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
