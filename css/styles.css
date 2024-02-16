@@ -14,30 +14,28 @@ body, header, nav, div, footer, img {
 body {
     background-color: #738678;
 }
+
 img {
-    max-width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 /* Style rules for header */
 header {
-    width: 25%;
-    float: left;
     color: #4e3524;
     background-color: #fffaf0;
     text-align: center;
+    border-radius: 15px;
 }
 
 h1 {
-    font-family: Garamond, serif;
+    font-family: "Abril Fatface", serif;
     font-weight: lighter;
 }
 
 h3 {
-    font-family: Arial, sans-serif;
     font-weight: lighter;
+    font-family: "Quicksand", sans-serif;
 }
 
 #name {
@@ -46,23 +44,25 @@ h3 {
     text-align: center;
 }
 
-#image-and-text {
+#mobile-text-and-img {
+    display: none;
+}
+
+.title {
     color: #4e3524;
-    background-color: #fffaf0;
-    text-align: center;
+    font-family: "Abril Fatface", serif;
+    display: block;
+    border-radius: 15px;
 }
 
 /* Style rules for nav */
 nav {
-    width: 50%;
-    float: right;
     margin: 5em 3em 0 0;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
-    text-align: right;
 }
 
 nav li a {
@@ -72,10 +72,10 @@ nav li a {
     padding: 0.5em 1em;
     text-decoration: none;
     background-color: #fffaf0;
-    width: 55%;
+    width: auto;
     height: auto;
-    float: right;
-    font-family: Garamond, serif;
+    font-family: "Abril Fatface", serif;
+    border-radius: 15px;
 }
 
 /* Style rules for main */
@@ -84,30 +84,35 @@ main {
     background-color: #738678;
     padding: 2%;
     font-size: 1.15em;
+    border-radius: 15px;
     color: #fffaf0;
-    font-family: Arial, sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
-#welcome {
-    width: 35%;
+#bio-paragraph {
+    text-align: left;
+}
+
+#about-info {
+    display: none;
 }
 
 #contact {
-    width: 55%;
     padding: 5px;
+    margin: 0;
+    display: block; 
 }
 
 #map {
-    position: left;
+    width: auto;
+    height: auto;
 }
 
 .list {
     color: #fffaf0;
     padding: 10px;
-    list-style-type: none;
     list-style-type: circle;
     line-height: 1.5em;
-    
 }
 
 .link {
@@ -124,17 +129,20 @@ footer p {
     text-align: center;
     font-size: 0.75em;
     padding: 2.5em;
-    font-family: Arial, sans-serif;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 15px;
 }
 
 footer a {
+    display: block;
     background-color: #fffaf0;
     color: #4e3524;
-    text-align: left;
+    text-align: center;
     font-size: 0.75em;
-    padding: 2.5em;
-    font-family: Arial, sans-serif;
-    float: left;
+    padding: 2px;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    border-radius: 15px;  
 }
 
 .link {
@@ -142,4 +150,11 @@ footer a {
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
+    
 }
+
+/*#image-and-text {
+    color: #4e3524;
+    background-color: #fffaf0;
+    text-align: center;
+} */
